@@ -18,7 +18,7 @@
 
 """
 
-
+# Hackerrank
 class Solution:
     def __init__(self):
         self.class_name = "Arrays - DS"
