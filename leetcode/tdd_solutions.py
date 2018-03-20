@@ -1,5 +1,6 @@
 # import section
 from leetcode.adding_two_long_nums import ListNode, Solution as additive
+from leetcode.jewels_and_stones import Solution as jewels
 from median_two_sorted_arrays import Solution as median
 
 
@@ -21,7 +22,11 @@ def test_case_2():
 
 
 def test_case_3():
-    pass
+    # jewels and stones
+    J = "aA"
+    S = "aaZZ~!`A"
+    answer = jewels().numJewelsInStones(J, S) == 3
+    assert answer is True
 
 
 def test_case_4():
